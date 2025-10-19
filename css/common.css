@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+body {
+    background-color: #b1e5db;
+    background-image: url("../images/bg_stars.png");
+    background-size: 500px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.album-container {
+    background-color: white;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-shadow: 0 0 20px 0 rgba(24, 139, 147, 0.25);
+}
+
+.album-view {
+    background-color: #ffd6d4;
+    border-radius: 10px;
+    text-align: center;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.album-view img {
+    width: 170px;
+}
+
+/* 앨범 썸네일 리스트 */
+
+.album-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.album-list button {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.album-list img {
+    width: 60%;
+}
+
+.album-list button:hover {
+    border: 2px solid black;
+}
+
+.album-list button
